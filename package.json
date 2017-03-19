@@ -1,5 +1,6 @@
 {
   "name": "folio-react",
+  "homepage": "file:///Users/clement/Documents/SITES/folio-react/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
