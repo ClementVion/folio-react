@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 import HomeScene from './scenes/HomeScene'
 import ProjectScene from './scenes/ProjectScene'
 import './App.css'
