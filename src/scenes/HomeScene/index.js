@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from '../../components/Header'
 import ProjectHome from '../../components/ProjectHome'
+import projects from '../../projects.json'
 
 class HomeScene extends Component {
   
@@ -8,7 +9,7 @@ class HomeScene extends Component {
     return (
       <div className="Home">
         <Header />
-        { this.props.projects.map(this.renderProject) }
+        { projects.map(this.renderProject) }
       </div>
     )
   }

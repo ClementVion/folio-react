@@ -1,28 +1,17 @@
-import React, { Component } from 'react';
-import HomeScene from './scenes/HomeScene';
-import './App.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import HomeScene from './scenes/HomeScene'
+import './App.css'
+import projects from './projects.json'
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { 
-      projects: [
-        {
-          'title': 'Thaddé Méneur Portfolio',
-          'id': '0'
-        },
-        {
-          'title': 'Anais Profit',
-          'id': '1'
-        },
-      ]
-    }
-  }
   
   render() {
     return (
       <div className="App">
-        <HomeScene projects={this.state.projects} />
+        <Router>
+          <Route path="/" component={HomeScene} />
+        </Router>
       </div>
     );
   }
