@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import Header from '../../components/Header'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import projects from '../../projects.json'
+import HeaderProject from '../../components/HeaderProject'
 
 class ProjectScene extends Component {
   
@@ -10,8 +11,16 @@ class ProjectScene extends Component {
     
     return (
       <div className="Project">
-        <Header />
-        Project {project.title}
+        <ReactCSSTransitionGroup 
+            transitionName="example"
+            transitionAppear={true} 
+            transitionAppearTimeout={400}
+            transitionEnter={false} 
+            transitionLeave={false}>
+          
+          <HeaderProject project={project} />  
+          
+        </ReactCSSTransitionGroup>
       </div>
     )
   }

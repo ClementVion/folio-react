@@ -1,0 +1,47 @@
+.HeaderProject {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.HeaderProject__title {
+  font-size: 2.0625rem;
+  font-weight: 500;
+}
+
+.HeaderProject__description {
+	z-index: 1;
+	width: 45%;
+	line-height: 25px;
+	font-weight: 300;
+	font-size: 0.875rem;
+	display: inline-block;
+}
+
+.HeaderProject__description a {
+  color: #353535;
+  font-weight: 700;
+}
+
+.HeaderProject__infos {
+	display: inline-block;
+	vertical-align: top;
+	width: 54%;
+	line-height: 20px;
+	font-size: 0.875rem;
+	color: #353535;
+  margin: 14px 0;
+	height: 50px;
+}
+
+.HeaderProject__info {
+  margin: 0 0 0 15%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.HeaderProject__infoName {
+  display: block;
+}
+
+.HeaderProject__infoSpec {
+  font-weight: 300;
+}
