@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import HomeScene from './scenes/HomeScene'
+import ProjectScene from './scenes/ProjectScene'
 import './App.css'
-import projects from './projects.json'
 
 class App extends Component {
   
@@ -10,7 +10,10 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <Route path="/" component={HomeScene} />
+          <div>
+            <Route exact path="/" component={HomeScene} />
+            <Route path="/projects/:project" component={ProjectScene} />
+          </div>
         </Router>
       </div>
     );

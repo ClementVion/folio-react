@@ -1,7 +1,9 @@
 [{
     "id": "0",
+    "slug": "thadde-meneur-portfolio",
     "title": "Thaddé Méneur Portfolio"
 }, {
     "id": "1",
+    "slug": "anais-profit",
     "title": "Anais Profit"
 }]

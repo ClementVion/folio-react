@@ -1,5 +1,5 @@
 header{
-	padding: 120px 0 135px 0;
+	margin: 120px 0 135px 0;
 	font-size: 0.875rem;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -21,18 +21,4 @@ header a {
 
 .header__contact {
   color: #000000;
-}
-
-.header__title {
-	font-size: 2.0625rem;
-	margin: 205px 0 40px 0;
-	font-weight: 500;
-}
-
-.header__description {
-	width: 50%;
-	line-height: 25px;
-	font-weight: 300;
-	font-size: 0.875rem;
-	color: $second-font-color;
 }

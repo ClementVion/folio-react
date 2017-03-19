@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-// import className from 'classnames';
-import './ProjectHome.css';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import './ProjectHome.css'
 
 class ProjectHome extends Component {
   
@@ -8,7 +8,7 @@ class ProjectHome extends Component {
     return(
       <section className="ProjectHome">
         <div>
-          <h2 className="ProjectHome__title">{ this.props.title }</h2>
+          <Link to={'/projects/' + this.props.slug }>{this.props.title}</Link>
         </div>
       </section>
     );
