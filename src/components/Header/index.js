@@ -5,10 +5,10 @@ import './Header.css';
 class Header extends Component {
   render() {
     return(
-      <header className="header">
-        <div className="header__top">
-          <Link to='/' className="header__name">Clément Vion </Link>
-          <a href="#"className="header__contact">clementvion1@gmail.com</a>
+      <header className="Header">
+        <div className="Header__top">
+          <Link to='/' className="Header__name">Clément Vion </Link>
+          <a href="#"className="Header__contact">clementvion1@gmail.com</a>
         </div>
       </header>
     );

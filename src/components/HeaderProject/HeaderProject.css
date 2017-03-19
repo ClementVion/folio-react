@@ -50,3 +50,46 @@
 .HeaderProject__infoSpec {
   font-weight: 300;
 }
+
+
+@media screen and (max-width : 1100px) {
+  
+  .HeaderProject__description {
+    line-height: 20px;
+    width: 100%;
+  }
+
+  .HeaderProject__infos {
+    width: 100%;
+  }
+  
+  .HeaderProject__info {
+    float: left;
+    margin: 4% 15% 0 0;
+
+  }
+  
+}
+
+@media screen and (max-width : 550px) {
+  
+  .HeaderProject__title {
+    font-size: 1.2rem;
+  }
+  
+  .HeaderProject__description {
+    line-height: 20px;
+    font-size: 0.75rem;
+  }
+
+  .HeaderProject__infos {
+    line-height: 20px;
+    font-size: 0.75rem;
+  }
+  
+  .HeaderProject__info {
+    display: block;
+    width: 100%;
+  }
+  
+}

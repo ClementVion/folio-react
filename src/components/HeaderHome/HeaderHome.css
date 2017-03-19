@@ -12,3 +12,32 @@
 	color: #353535;
   margin: 0 0 40px 0;
 }
+
+@media screen and (max-width : 840px) {
+  
+  .HeaderHome__title{
+    font-size: 2.0625rem;
+    margin: 0 0 40px 0;
+  }
+
+  .HeaderHome__description {
+    width: 100%;
+    line-height: 20px;
+    font-size: 0.875rem;
+  }
+  
+}
+
+@media screen and (max-width : 595px) {
+  
+  .HeaderHome__title{
+    font-size: 1.2rem;
+    margin: 0 0 15px 0;
+  }
+
+  .HeaderHome__description {
+    line-height: 20px;
+    font-size: 0.75rem;
+  }
+  
+}

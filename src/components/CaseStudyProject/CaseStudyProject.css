@@ -14,3 +14,37 @@
   position: absolute;
   width: 100%;
 }
+
+@media screen and (min-width : 1600px) {
+  .CaseStudyProject__container {
+    margin: 0 0 100px 0;
+  }
+}
+
+@media screen and (max-width : 1100px) {
+  .CaseStudyProject__container {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width : 840px) {
+  .CaseStudyProject__container {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width : 550px) {
+  .CaseStudyProject {
+    width: 100%;
+    margin: 150px 0 100px 0;
+  }
+  .CaseStudyProject__container {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width : 450px) {
+  .CaseStudyProject__container {
+    height: 250px;
+  }
+}
