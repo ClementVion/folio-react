@@ -5,8 +5,19 @@ body{
 	font-size: 100%;
 }
 
-.app {
+.App {
 	width: 75%;
 	margin: auto;
 	position: relative;
+}
+
+.example-appear {
+   opacity: 0.01;
+   transform: translateY(-10px);
+}
+
+.example-appear.example-appear-active {
+   opacity: 1;
+   transform: translateY(0px);
+   transition: 400ms ease;
 }

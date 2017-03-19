@@ -1,38 +1,47 @@
-header{
-	padding: 120px 0 135px 0;
+.Header{
+	margin: 120px 0 135px 0;
 	font-size: 0.875rem;
 	font-family: 'Open Sans', sans-serif;
 }
 
-.header__top {
+.Header__top {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
 
-header a {
+.Header a {
   text-decoration: none;
 }
 
-.header__name{
+.Header__name {
   font-weight: 700;
   color: #000000;
 }
 
-.header__contact {
+.Header__contact {
   color: #000000;
 }
 
-.header__title {
-	font-size: 2.0625rem;
-	margin: 205px 0 40px 0;
-	font-weight: 500;
-}
+@media screen and (max-width : 595px) {
+		
+	.Header{
+		padding: 120px 0 80px 0;
+		font-size: 0.75rem;
+		padding: 0;
+		margin: 40px 0;
+	}
+	
+	.Header__name{
+		display: block;
+		font-size: 2rem;
+		margin: 0 0 10px 0;
+	}
 
-.header__description {
-	width: 50%;
-	line-height: 25px;
-	font-weight: 300;
-	font-size: 0.875rem;
-	color: $second-font-color;
+	.Header__contact{
+		display: none;
+		float: left;
+		font-weight: 300;
+	}
+		
 }
