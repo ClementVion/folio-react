@@ -17,15 +17,13 @@ class HomeScene extends Component {
             transitionLeave={false}>
           
           <HeaderHome />
-          { projects.map(this.renderProject) }
+          { projects.map( (project) => {
+            return <ProjectHome key={project.id} project={project} />
+          }) }
              
         </ReactCSSTransitionGroup>
       </div>
     )
-  }
-  
-  renderProject({id, title, slug}) {
-    return <ProjectHome key={id} title={title} slug={slug} />
   }
 }
 

@@ -9,8 +9,7 @@ class CaseStudyProject extends Component {
         
         { this.props.project.images.map( (item) => {
           return <div className="CaseStudyProject__container">
-             <img key={item.id} src={item.src} alt=""></img>
-          </div>
+             <img key={item.id} src={item.src} alt=""></img></div>
         }) }
 
       </section>
