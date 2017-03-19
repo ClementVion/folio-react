@@ -1,25 +1,71 @@
 [{
     "id": "0",
-    "slug": "thadde-meneur-portfolio",
+    "slug": "thaddemeneur",
     "title": "Thaddé Méneur Portfolio",
+    "link": "http://thaddemeneur.com",
     "date": "2017",
     "role": "front-end development",
     "client": "side project",
-    "desc": "Portfolio made with a UI/UX designer who wished to highlights his projects. The most interesting part was to work with him on UX conception. We wanted to try some new stuff and we were always challenging ourselves."
+    "desc": "Portfolio made with a UI/UX designer who wished to highlights his projects. The most interesting part was to work with him on UX conception. We wanted to try some new stuff and we were always challenging ourselves.",
+    "images": [
+      {
+        "id": "0",
+        "src": "images/thaddemeneur_1.jpg"
+      }, {
+        "id": "1",
+        "src": "images/thaddemeneur_2.jpg"
+      }, {
+        "id": "2",
+        "src": "images/thaddemeneur_3.jpg"
+      }, {
+        "id": "3",
+        "src": "images/thaddemeneur_4.jpg"
+      }, {
+        "id": "4",
+        "src": "images/thaddemeneur_5.jpg"
+      }
+    ]
 }, {
     "id": "1",
-    "slug": "anais-profit",
+    "slug": "anaisprofit",
     "title": "Anais Profit",
+    "link": "http://anais-profit.fr/",
     "date": "2016",
     "role": "front-end development",
     "client": "school",
-    "desc": "Anais Profit is a graphic designer who does mainly paper art. The project was started for a school project but we finished it after with two others developers."
+    "desc": "Anais Profit is a graphic designer who does mainly paper art. The project was started for a school project but we finished it after with two others developers.",
+    "images": [
+      {
+        "id": "0",
+        "src": "images/anaisprofit_1.jpg"
+      }, {
+        "id": "1",
+        "src": "images/anaisprofit_2.jpg"
+      }, {
+        "id": "2",
+        "src": "images/anaisprofit_3.jpg"
+      }, {
+        "id": "3",
+        "src": "images/anaisprofit_4.jpg"
+      }]
 }, {
     "id": "2",
-    "slug": "zoe-de-las-cases",
+    "slug": "zdlc",
     "title": "Zoé de Las Cases",
+    "link": "http://www.zoedelascases.com/",
     "date": "2016",
     "role": "front-end development",
     "client": "freelance",
-    "desc": "Zoé de Las Cases is a decorator, editor and creator based in Paris. She has various activities around creation so her website should show each of theses. Working with her is a good opportunity because on the one hand her website needs to be experimental and on the other hand one hundred percent usable for anyone."
+    "desc": "Zoé de Las Cases is a decorator, editor and creator based in Paris. She has various activities around creation so her website should show each of theses. Working with her is a good opportunity because on the one hand her website needs to be experimental and on the other hand one hundred percent usable for anyone.",
+    "images": [
+      {
+        "id": "0",
+        "src": "images/zdlc_1.jpg"
+      }, {
+        "id": "1",
+        "src": "images/zdlc_2.jpg"
+      }, {
+        "id": "2",
+        "src": "images/zdlc_3.jpg"
+      }]
 }]

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import projects from '../../projects.json'
 import HeaderProject from '../../components/HeaderProject'
+import CaseStudyProject from '../../components/CaseStudyProject'
 
 class ProjectScene extends Component {
   
@@ -19,6 +20,7 @@ class ProjectScene extends Component {
             transitionLeave={false}>
           
           <HeaderProject project={project} />  
+          <CaseStudyProject project={project} />  
           
         </ReactCSSTransitionGroup>
       </div>

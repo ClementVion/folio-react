@@ -7,6 +7,11 @@
   font-weight: 500;
 }
 
+.HeaderProject__title a {
+  color: #000;
+  text-decoration: none;
+}
+
 .HeaderProject__description {
 	z-index: 1;
 	width: 45%;
